@@ -144,7 +144,6 @@ footer { font-size: 12.5px; color: var(--muted); max-width: 70ch; }
       </section>
     </div>
   </main>
-  <footer>The guide repeats the app's <span style="font-family:var(--mono)">heat_fragment</span> shader (HeatStyle, the dev3 look, the MediaPipe mesh), with its maps computed once per frame; the full look is the app's own shaders on the Mac's GPU. Phase 1 dots follow a makeup face chart: triangles on the forehead, cheeks, blush and under the eyes, rows along the contour, cheekbones and lids, two down the nose, one on the chin (the app still cuts them from a hex grid). On a turn MediaPipe's mesh runs past the face (the far cheek, the temple by the ear): here each side of the mesh is first squeezed, row by row, to the face's edge that a face-parsing model (BiSeNet) finds, so the zones stay inside the face; what still falls off is cut away by the same mask. The app does neither yet. Frames: head-turn-unidata-caucasian-04 from the head-turns dataset; the angle is the head's yaw that MediaPipe measures.</footer>
 </div>
 
 <script>
